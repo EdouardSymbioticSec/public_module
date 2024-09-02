@@ -3,3 +3,7 @@ variable "enable_encryption" {
     type = bool
     default = true
 }
+
+output "enable_encryption" {
+  value = var.enable_encryption
+}
